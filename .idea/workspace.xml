@@ -4,21 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3efd1c0c-54c9-477f-94f5-c0360ebf1c2f" name="Changes" comment="test_auth added">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/python_selenium_project_spr2024.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geckodriver.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/locators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_start.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_auth.py" afterDir="false" />
+    <list default="true" id="3efd1c0c-54c9-477f-94f5-c0360ebf1c2f" name="Changes" comment="test_202 added, test_start deleted">
+      <change beforePath="$PROJECT_DIR$/temp.py" beforeDir="false" afterPath="$PROJECT_DIR$/temp.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +22,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="saucedemo_202" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -51,25 +38,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Python tests.Python tests for test_auth.test_add_item_from_the_card.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_auth.test_adding_product_to_cart.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_auth.test_auth_negative.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_auth.test_auth_positive.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_auth.test_click_about.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_auth.test_filter_lohi.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_auth.test_log_out.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_auth.test_login_form.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_auth.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test_auth.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test_start.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python tests.Python tests for test_201.test_adding_product_to_cart.executor": "Run",
+    "Python tests.Python tests for test_202.test_202.executor": "Run",
+    "Python tests.Python tests for test_auth.test_add_item_from_the_card.executor": "Run",
+    "Python tests.Python tests for test_auth.test_adding_product_to_cart.executor": "Run",
+    "Python tests.Python tests for test_auth.test_auth_negative.executor": "Run",
+    "Python tests.Python tests for test_auth.test_auth_positive.executor": "Run",
+    "Python tests.Python tests for test_auth.test_click_about.executor": "Run",
+    "Python tests.Python tests for test_auth.test_filter_lohi.executor": "Run",
+    "Python tests.Python tests for test_auth.test_log_out.executor": "Run",
+    "Python tests.Python tests for test_auth.test_login_form.executor": "Run",
+    "Python tests.Python tests in test_auth.py.executor": "Run",
+    "Python.test_auth.executor": "Run",
+    "Python.test_start.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/user/PycharmProjects/python_selenium_saucedemo_2024",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Python tests.Python tests for test_auth.test_auth_negative">
     <configuration name="Python tests for test_auth.test_auth_negative" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="python_selenium_project_spr2024" />
@@ -148,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_auth.test_auth_negative" />
         <item itemvalue="Python tests.Python tests for test_auth.test_login_form" />
         <item itemvalue="Python tests.Python tests for test_auth.test_log_out" />
         <item itemvalue="Python tests.Python tests for test_auth.test_filter_lohi" />
         <item itemvalue="Python tests.Python tests for test_auth.test_click_about" />
+        <item itemvalue="Python tests.Python tests for test_auth.test_auth_negative" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +170,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711991253773</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="test_202 added, test_start deleted">
+      <option name="closed" value="true" />
+      <created>1712404031689</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712404031689</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -197,6 +195,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="test_auth added" />
-    <option name="LAST_COMMIT_MESSAGE" value="test_auth added" />
+    <MESSAGE value="test_202 added, test_start deleted" />
+    <option name="LAST_COMMIT_MESSAGE" value="test_202 added, test_start deleted" />
   </component>
 </project>
