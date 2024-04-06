@@ -7,59 +7,6 @@ from selenium.webdriver.common.by import By
 
 browser = webdriver.Chrome()
 
-
-# TC-01. Авторизация
-
-# 1. Открыть url: https://www.saucedemo.com/v1/
-# 2. Ввести "standard_user" в "Username"
-# 3. Ввести "secret_sauce" в "Password"
-# 4. Кликнуть "Login"
-# 5. Проверить, что мы перешли на новый url: https://www.saucedemo.com/v1/inventory.html
-
-def test_auth_positive():
-    browser.get('https://www.saucedemo.com/v1/')
-
-    browser.find_element('xpath', '//*[@id="user-name"]').send_keys('standard_user')
-    browser.find_element(By.XPATH, '//*[@id="password"]').send_keys('secret_sauce')
-    browser.find_element(By.XPATH, '//*[@id="login-button"]').click()
-    assert browser.current_url == 'https://www.saucedemo.com/v1/inventory.html', 'url не соответствует ожидаемому'
-
-    # browser.quit()
-
-
-def test_adding_product_to_cart():
-    browser.get('https://www.saucedemo.com/v1/')
-    browser.find_element('css selector', '#user-name').send_keys('standard_user')
-    browser.find_element(By.CSS_SELECTOR, '#password').send_keys('secret_sauce')
-    browser.find_element(By.CSS_SELECTOR, '#login-button').click()
-
-    browser.find_element(By.XPATH, '//*[@id="inventory_container"]/div/div[3]/div[3]/button').click()
-    assert browser.find_element(By.XPATH, '//*[@id="inventory_container"]/div/div[3]/div[3]/button').text == 'REMOVE'
-    time.sleep(3)
-
-
-def test_remove_from_cart():
-    browser.get('https://www.saucedemo.com/')
-    browser.find_element('css selector', '#user-name').send_keys('standard_user')
-    browser.find_element(By.CSS_SELECTOR, '#password').send_keys('secret_sauce')
-    browser.find_element(By.CSS_SELECTOR, '#login-button').click()
-
-    browser.find_element(By.ID, 'add-to-cart-sauce-labs-bike-light').click()
-    browser.find_element(By.CLASS_NAME, 'shopping_cart_link').click()
-    browser.find_element(By.ID, 'remove-sauce-labs-bike-light').click()
-
-
-def test_add_item_from_the_card():
-    browser.get('https://www.saucedemo.com/')
-    browser.find_element(By.CSS_SELECTOR, '#user-name').send_keys('standard_user')
-    browser.find_element(By.CSS_SELECTOR, '#password').send_keys('secret_sauce')
-    browser.find_element(By.CSS_SELECTOR, '#login-button').click()
-    browser.find_element(By.ID, 'item_4_img_link').click()
-    browser.find_element(By.ID, 'add-to-cart').click()
-    time.sleep(3)
-    assert browser.find_element(By.CLASS_NAME, 'shopping_cart_badge').is_displayed()
-
-
 def test_successful_open_product_card():
     item_id = 5
     browser.get('https://www.saucedemo.com/')
