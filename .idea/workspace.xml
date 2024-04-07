@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3efd1c0c-54c9-477f-94f5-c0360ebf1c2f" name="Changes" comment="test_202 added, test_start deleted">
-      <change beforePath="$PROJECT_DIR$/temp.py" beforeDir="false" afterPath="$PROJECT_DIR$/temp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_501.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +44,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Python tests.Python tests for test_201.test_adding_product_to_cart.executor": "Run",
     "Python tests.Python tests for test_202.test_202.executor": "Run",
+    "Python tests.Python tests for test_501.test_501.executor": "Run",
     "Python tests.Python tests for test_auth.test_add_item_from_the_card.executor": "Run",
     "Python tests.Python tests for test_auth.test_adding_product_to_cart.executor": "Run",
     "Python tests.Python tests for test_auth.test_auth_negative.executor": "Run",
@@ -60,8 +62,8 @@
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for test_auth.test_auth_negative">
-    <configuration name="Python tests for test_auth.test_auth_negative" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test_501.test_501">
+    <configuration name="Python tests for test_501.test_501" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="python_selenium_project_spr2024" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -72,7 +74,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_auth.test_auth_negative&quot;" />
+      <option name="_new_target" value="&quot;test_501.test_501&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -138,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_501.test_501" />
         <item itemvalue="Python tests.Python tests for test_auth.test_login_form" />
         <item itemvalue="Python tests.Python tests for test_auth.test_log_out" />
         <item itemvalue="Python tests.Python tests for test_auth.test_filter_lohi" />
         <item itemvalue="Python tests.Python tests for test_auth.test_click_about" />
-        <item itemvalue="Python tests.Python tests for test_auth.test_auth_negative" />
       </list>
     </recent_temporary>
   </component>
