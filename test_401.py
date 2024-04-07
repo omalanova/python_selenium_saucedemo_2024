@@ -10,9 +10,9 @@ from faker import Faker
     # 3. Добавить товар в корзину
     # 4. Перейти в Корзину
     # 5. Нажать кнопку ""Checkout""
-    # 6. Ввести данные для оформления заказа: В поле Firstname добавить ""John"", в поле ""Lastname"" добавить ""Smith"", в поле ""Zip/Postal Code"" добавить 12345
+    # 6. Ввести фейковые данные для оформления заказа
     # 7. Нажать кнопку Finish
-    # 8. Отображается надпись Finish"
+    # 8. Отображается надпись "Thank you for your order!"
 
 fake = Faker("ru_Ru")
 def test_401(browser, auth):
