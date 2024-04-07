@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3efd1c0c-54c9-477f-94f5-c0360ebf1c2f" name="Changes" comment="test_202 added, test_start deleted">
-      <change beforePath="$PROJECT_DIR$/temp.py" beforeDir="false" afterPath="$PROJECT_DIR$/temp.py" afterDir="false" />
-    </list>
+    <list default="true" id="3efd1c0c-54c9-477f-94f5-c0360ebf1c2f" name="Changes" comment="test_501 added" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="saucedemo_202" />
+        <entry key="$PROJECT_DIR$" value="saucedemo_test501" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -178,7 +176,23 @@
       <option name="project" value="LOCAL" />
       <updated>1712404031689</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="test_501 added">
+      <option name="closed" value="true" />
+      <created>1712488003257</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712488003257</updated>
+    </task>
+    <task id="LOCAL-00004" summary="test_501 added">
+      <option name="closed" value="true" />
+      <created>1712488166950</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712488166950</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -196,6 +210,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="test_auth added" />
     <MESSAGE value="test_202 added, test_start deleted" />
-    <option name="LAST_COMMIT_MESSAGE" value="test_202 added, test_start deleted" />
+    <MESSAGE value="test_501 added" />
+    <option name="LAST_COMMIT_MESSAGE" value="test_501 added" />
   </component>
 </project>
