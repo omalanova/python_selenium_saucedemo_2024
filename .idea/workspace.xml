@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3efd1c0c-54c9-477f-94f5-c0360ebf1c2f" name="Changes" comment="test_501 added" />
+    <list default="true" id="3efd1c0c-54c9-477f-94f5-c0360ebf1c2f" name="Changes" comment="test auth.py refactored to test_101_102">
+      <change afterPath="$PROJECT_DIR$/test_205.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_503.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_503.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="saucedemo_test501" />
+        <entry key="$PROJECT_DIR$" value="saucedemo" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,6 +45,13 @@
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;Python tests.Python tests for test_201.test_adding_product_to_cart.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_202.test_202.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_205.test_205.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_502.test_502.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_503.test_503.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_504.test_503.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_601.test_601.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_602.test_602.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_603.test_603.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_auth.test_add_item_from_the_card.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_auth.test_adding_product_to_cart.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_auth.test_auth_negative.executor&quot;: &quot;Run&quot;,
@@ -58,8 +69,8 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python tests.Python tests for test_auth.test_auth_negative">
-    <configuration name="Python tests for test_auth.test_auth_negative" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test_205.test_205">
+    <configuration name="Python tests for test_101_102" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="python_selenium_project_spr2024" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -70,11 +81,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_auth.test_auth_negative&quot;" />
+      <option name="_new_target" value="&quot;test_101_102&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_auth.test_click_about" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_101_102" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="python_selenium_project_spr2024" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -85,11 +96,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_auth.test_click_about&quot;" />
+      <option name="_new_target" value="&quot;test_101_102&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_auth.test_filter_lohi" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_101_102" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="python_selenium_project_spr2024" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -100,11 +111,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_auth.test_filter_lohi&quot;" />
+      <option name="_new_target" value="&quot;test_101_102&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_auth.test_log_out" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_101_102.test_auth_negative" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="python_selenium_project_spr2024" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -115,11 +126,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_auth.test_log_out&quot;" />
+      <option name="_new_target" value="&quot;test_101_102.test_auth_negative&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_auth.test_login_form" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_101_102.test_login_form" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="python_selenium_project_spr2024" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -130,17 +141,47 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_auth.test_login_form&quot;" />
+      <option name="_new_target" value="&quot;test_101_102.test_login_form&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_205.test_205" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="python_selenium_project_spr2024" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_205.test_205&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_503.test_503" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="python_selenium_project_spr2024" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_503.test_503&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_auth.test_login_form" />
-        <item itemvalue="Python tests.Python tests for test_auth.test_log_out" />
-        <item itemvalue="Python tests.Python tests for test_auth.test_filter_lohi" />
-        <item itemvalue="Python tests.Python tests for test_auth.test_click_about" />
-        <item itemvalue="Python tests.Python tests for test_auth.test_auth_negative" />
+        <item itemvalue="Python tests.Python tests for test_205.test_205" />
+        <item itemvalue="Python tests.Python tests for test_503.test_503" />
+        <item itemvalue="Python tests.Python tests for test_101_102.test_login_form" />
+        <item itemvalue="Python tests.Python tests for test_101_102" />
+        <item itemvalue="Python tests.Python tests for test_101_102" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +233,95 @@
       <option name="project" value="LOCAL" />
       <updated>1712488166950</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="test_501 added">
+      <option name="closed" value="true" />
+      <created>1712488245971</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712488245971</updated>
+    </task>
+    <task id="LOCAL-00006" summary="test_502 added">
+      <option name="closed" value="true" />
+      <created>1712500622123</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1712500622123</updated>
+    </task>
+    <task id="LOCAL-00007" summary="test_503 added, test_501 and test_502 modified">
+      <option name="closed" value="true" />
+      <created>1712502241732</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1712502241732</updated>
+    </task>
+    <task id="LOCAL-00008" summary="test_503 added, test_501 and test_502 modified">
+      <option name="closed" value="true" />
+      <created>1712502619724</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1712502619724</updated>
+    </task>
+    <task id="LOCAL-00009" summary="test_504 added">
+      <option name="closed" value="true" />
+      <created>1712503506018</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1712503506018</updated>
+    </task>
+    <task id="LOCAL-00010" summary="test_504 added">
+      <option name="closed" value="true" />
+      <created>1712503517709</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1712503517709</updated>
+    </task>
+    <task id="LOCAL-00011" summary="test_601 added, requirements modified">
+      <option name="closed" value="true" />
+      <created>1712504442725</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1712504442725</updated>
+    </task>
+    <task id="LOCAL-00012" summary="test_602 added, test_case TC-401 modified">
+      <option name="closed" value="true" />
+      <created>1712505421617</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1712505421617</updated>
+    </task>
+    <task id="LOCAL-00013" summary="test_603 added">
+      <option name="closed" value="true" />
+      <created>1712506428714</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1712506428714</updated>
+    </task>
+    <task id="LOCAL-00014" summary="temp.py deleted">
+      <option name="closed" value="true" />
+      <created>1712506604955</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1712506604955</updated>
+    </task>
+    <task id="LOCAL-00015" summary="test auth.py refactored to test_101_102">
+      <option name="closed" value="true" />
+      <created>1712506781579</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1712506781579</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -211,6 +340,14 @@
     <MESSAGE value="test_auth added" />
     <MESSAGE value="test_202 added, test_start deleted" />
     <MESSAGE value="test_501 added" />
-    <option name="LAST_COMMIT_MESSAGE" value="test_501 added" />
+    <MESSAGE value="test_502 added" />
+    <MESSAGE value="test_503 added, test_501 and test_502 modified" />
+    <MESSAGE value="test_504 added" />
+    <MESSAGE value="test_601 added, requirements modified" />
+    <MESSAGE value="test_602 added, test_case TC-401 modified" />
+    <MESSAGE value="test_603 added" />
+    <MESSAGE value="temp.py deleted" />
+    <MESSAGE value="test auth.py refactored to test_101_102" />
+    <option name="LAST_COMMIT_MESSAGE" value="test auth.py refactored to test_101_102" />
   </component>
 </project>
