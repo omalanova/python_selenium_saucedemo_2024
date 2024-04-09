@@ -24,5 +24,4 @@ def test_503(browser, auth):
     prices = browser.find_elements(By.CLASS_NAME, 'inventory_item_price')
     price_names = [float(price.text[1::]) for price in prices]
     sorted_product_prices = sorted(price_names)
-
     assert price_names == sorted_product_prices, 'error'
